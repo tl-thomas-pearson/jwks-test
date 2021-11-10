@@ -1,0 +1,23 @@
+{
+  "name": "jwks",
+  "version": "1.0.0",
+  "description": "jwks-endpoint-test",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run json-server --watch jwks.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tl-thomas-pearson/jwks-test.git"
+  },
+  "author": "thomas pearson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tl-thomas-pearson/jwks-test/issues"
+  },
+  "homepage": "https://github.com/tl-thomas-pearson/jwks-test#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
