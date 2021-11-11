@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tl-thomas-pearson/jwks-test#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "json-server": "^0.17.0"
   }
 }

@@ -1,10 +1,20 @@
+const express = require("express");
 const json_server = require("json-server");
+const jwks_data = require("./jwks");
 
-const server = json_server.create();
-const router = json_server.router("jwks.json"); 
-const middleware = json_server.defaults();
+const server = express();
+
+server.use(json_server.defaults())
+server.use(express.json());
+
+server.get("/keys", (req, res) => res.json(jwks_data));
+
+server.get("/redirect", (req, res) => {
+    console.log("`/redirect` recevied:", { body: req.body, params: req.params });
+    res.sendStatus(200);
+})
+
+
 const port = process.env.PORT || 3000;
-
-server.use(middleware);
-server.use(router);
+console.info(`[server]: running on port ${port}`);
 server.listen(port);
