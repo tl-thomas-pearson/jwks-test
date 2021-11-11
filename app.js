@@ -9,8 +9,8 @@ server.use(express.json());
 
 server.get("/keys", (req, res) => res.json(jwks_data));
 
-server.get("/redirect-page", (req, res) => {
-    console.log("`/redirect-page` received:", { body: req.body, params: req.params });
+server.get("/redirect-page*", (req, res) => {
+    console.log("`/redirect-page` received:", { body: req.body, params: req.params, query: req.route });
     res.sendStatus(200);
 })
 
