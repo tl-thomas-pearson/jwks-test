@@ -17,10 +17,20 @@ server.get("/redirect-page*", (req, res) => {
 
 
 server.get("/revocation*", (req, res) => {
-    console.log("`/revocation` received:", { body: req.body, query: req.query });
+    console.log("`/revocation` received:", { body: req.body, query: req.query, params: req.params, route: req.route });
     res.sendStatus(204);
-})
+});
 
+
+server.get("/arrangements/revoke*", (req, res) => {
+    console.log("`/revocation` received:", { body: req.body, query: req.query, params: req.params, route: req.route });
+    res.sendStatus(204);
+});
+
+server.get("/*", (req, res) => {
+    console.log("`/*` received:", { body: req.body, query: req.query, params: req.params, route: req.route });
+    res.sendStatus(204);
+});
 
 const port = process.env.PORT || 3000;
 console.info(`[server]: running on port ${port}`);
