@@ -22,7 +22,7 @@ server.get("/revocation*", (req, res) => {
 });
 
 
-server.get("/arrangements/revoke*", (req, res) => {
+server.post("/arrangements/revoke*", (req, res) => {
     console.log("`/revocation` received:", { body: req.body, query: req.query, params: req.params, route: req.route });
     res.sendStatus(204);
 });
