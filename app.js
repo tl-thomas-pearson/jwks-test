@@ -17,18 +17,36 @@ server.get("/redirect-page*", (req, res) => {
 
 
 server.get("/revocation*", (req, res) => {
-    console.log("`/revocation` received:", { body: req.body, query: req.query, params: req.params, route: req.route });
+    console.log("`/revocation` received:", {
+        headers: JSON.stringify(req.headers),
+        body: req.body,
+        query: req.query,
+        params: req.params,
+        route: req.route
+    });
     res.sendStatus(204);
 });
 
 
 server.post("/arrangements/revoke*", (req, res) => {
-    console.log("`/revocation` received:", { body: req.body, query: req.query, params: req.params, route: req.route });
+    console.log("`/arrangements/revoke` received:", {
+        headers: JSON.stringify(req.headers),
+        body: req.body,
+        query: req.query,
+        params: req.params,
+        route: req.route
+    });
     res.sendStatus(204);
 });
 
 server.get("/*", (req, res) => {
-    console.log("`/*` received:", { body: req.body, query: req.query, params: req.params, route: req.route });
+    console.log("`/*` received:", {
+        headers: JSON.stringify(req.headers),
+        body: req.body,
+        query: req.query,
+        params: req.params,
+        route: req.route
+    });
     res.sendStatus(204);
 });
 
