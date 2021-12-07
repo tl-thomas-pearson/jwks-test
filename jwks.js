@@ -17,14 +17,6 @@ const jwks = {
       "n": "r6MM3ltYF17ItZBiQT6bbUn_9x73uirf_3KyjOOHz3efWn9pZU2lOAKWbEnFblOO1ZX-CBIVsfq9RCM_duAoGnOflaHTrJeeRdEfKj-ELDZ6kRsQpLKLsFqIJy06zjRnupBBnc7nhJTdeJJD-Wm7p6ZgUUV1jb7QFbIb5ofSCgJLVX9989Geb0tuM6_lhoUpzdBR3GcK7G1P9C_r4miVPdtRaCiQjtZGMuMAbe0IQbJbhT35iBP5pj46CZmrCNZB9thYiYO1VkD2ltTu9mniA9Opg806hq1zrN-jokMrAA0lNZqc4nT9R8RHqO8NiUZWoqJW-SEFSMhA4ja2dTi14w"
     },
     {
-      "alg": "RSA-OAEP",
-      "use": "enc",
-      "kty": "RSA",
-      "kid": "5a92f6f6-293f-4979-a488-c1be2abb55d9",
-      "n": "oPUl1kPvgOoTeH51EWljkrF4alyrwlzZmpZkQ_fjHkNL1bBJ3H2vROSWAfq1l3hxvh-BGlS2iHg98EyBGe1pAWfgq1wFRoD2Ikes5UfrRmOv-WiaHl7SpU1D_5r9d9jyrP12XNTLEY7ElIqN_iKgxdXPeSK2a4dijMILID3gYUsgNtdTfzZ6a_llZDoiGyShASnTD0V8yNp8vxZz_BY3P966RdUEoavli4GSx_vQP_wWG9ZV7A5rqHsNXiEqRf-iO5nT2A0VBN51Q9_Jzpv9gCXBvQh2nfZKUqJDDZXaWgchtLVrFy6Hy94bNrKfm-utaUl-XgWbvXoy0zcwXPJnbwfSXEUWfeHXR_unragCwkcq7HbL3f4IFzeAGtc4LzgWSEFgmE_F42A-n22vOjaREqbxdowJRojQURPGhxtiLT1Oc_a-f0_Tp-zmBLGoPyNVNsfnkKwAAtihTICnR1Ee4EHoL9dNm3GcPaU4jlzskqHXXEB6hhXBhWGj93FbnAtupk5qOw2NC4qhnQO8VNT7qQ7YW2GU_ZY-fhYvEal9ZHGX6ZLfftXFoml38QnHkM1tyh824erkE-PWqxSLhSkIk5WJTkLPRvK10niXgxFR7-2pvlFFRhoeh_3xZ_gMN8yoZfuIxDmePGEzFueLrRiGOk3c_uCK2F25bl8u23Jl9oc",
-      "e": "AQAB"
-    },
-    {
       "kty": "RSA",
       "alg": "PS256",
       "use": "sig",
