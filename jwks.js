@@ -23,6 +23,14 @@ const jwks = {
       "kid": "4Rr1h6Jf27kLhkL_Hy7OhBDVY8HZNpWpIYn2OBscnEM",
       "n": "sxFzyAtuNNj5axmdmzIGQNCUlDt_ddkZokW02sUfnJ_FKafBO2dLWozxPCq0wXU1vMHY6roec1Ub4Pvr7uEhoLXoRttqCKnJxcpHCM_Y-Q21QZImjCXgioWIR3eS-HkJVtL-0PTeIT7tvSUltnnh4X9fDvJ2Wam-YOS_X7k7kfN6tHG_UcnChQKN8u3A0n2_Ab4KO-Lm0v3xxTNoPYy0bYg0uwytFJWsIO3AhPnUNjlPd5y-RCtEoD51mdlGyAYKhPqaT8dd23zWhiJx8cmItobrnzWC17bFeuWhzYk79HZ5ibnCwLuPbaZYxKPQinJTjeJ879NzmfNbBQpdFK2X1Q",
       "e": "AQAB"
+    },
+    {
+      "alg": "RSA-OAEP",
+      "use": "enc",
+      "kty": "RSA",
+      "kid": "3dcd200a-8509-4d46-b99f-d42173d42e98",
+      "n": "9zyIbjRSUzI-kSwnXCrob0PZRDVb_2qRo3uhxqVdtClMNm7WTfdP325MPMRxBuIm7So9ns9ut2hSZYexF1FPFAX0tU0k7-EVDA5CYq0Z1EZRyTTwf4DeP_htdXuWJSScMZK61a33yBkc72nNKLqliGYh7tTrVm9Z-nNR9bJi7W6u9_Fs2ag65dYUYwLnKRb0F8r3lvv10RRCgGLNOV4v9LOm9Df6YS0rtXIcMlQbQMpBaAxso7WjNxsn0MYjW7M_CjmzVHXFlvDIbhWxB9Movo5dtL_GNKLirZ96Ouv94E5UqAPlj5zF7aPlGJxBzE0s9sXdeTcrYRdwVSH-qWLNZhjTdGjX7poC30PysPevzvG0Ek4yxXiLEcYrEc-17mtamBeoqXZEhehLIqalWGqbU8Nv5eculk6odw-MNV8GV6opmm7cqT1ON-NbGt5LZ1T0cvIKnmNADPy9tu_SmuIUDiDNLod3mNKjumFl8ZI9eQEDbeUHwry_zn8XZoR4SpDeJlYq0ZU36F8cGISka0zbLLVg-6x3UtHE2umuQmwECvOS7uiSBj_DxA-V73zPr-_Xil7dSLnbbm5D0TIyDNvoIl1mQJ-ZGCvpi5erI_KP2Tzp1WyMUpAevVgdPFgl3LgRkNAi49-gYSEL9Y59rJCb9FB4iVFkhi2m8ydXZqeea90",
+      "e": "AQAB"
     }
   ]
 };
